@@ -17,9 +17,9 @@ describe('div function', () => {
     expect(div(6, 2)).toBe(3);
   });
 
-  //   test('throws error when dividing by 0', () => {
-  //     expect(() => div(6, 0)).toThrow();
-  //   });
+  test('throws error when dividing by 0', () => {
+    expect(() => div(6, 0)).toThrow();
+  });
 });
 
 describe('mul function', () => {
